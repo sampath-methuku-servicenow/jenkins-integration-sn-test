@@ -1,7 +1,7 @@
 def semanticVersion = "${env.BUILD_NUMBER}.0.0"
 def packageName = "devops_pipeline_demo_${env.BUILD_NUMBER}"
 def version = "${env.BUILD_NUMBER}.0"
-pipeline {
+pipeline { 
     agent any
     tools { 
         maven 'Maven' 
