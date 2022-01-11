@@ -4,7 +4,7 @@ node {
     def buildInfo
 
     stage ('Clone') {
-        git url: 'https://github.com/jfrog/project-examples.git'
+        git url: 'https://github.com/sampath-methuku-servicenow/jenkins-integration-sn-test.git'
     }
 
     stage ('Artifactory configuration') {
